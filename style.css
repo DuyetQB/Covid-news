@@ -2,14 +2,17 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     -moz-osx-font-smoothing: auto;
-    margin-left: 20px;
+    padding-left: 20px;
+background: linear-gradient(to right, #f2709c,#ff9472);
+padding-right:20px;
 }
 
 .main-text{
+   
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    border-bottom: 1px solid rgb(189, 186, 186);
+    border-bottom: 1px solid rgb(230, 227, 227);
     background: #F1F6FB;
     color:#007BFF;
     font-weight: 600;
@@ -18,4 +21,10 @@ body{
 #eoo3cnz1cjya1{
     width:200px;
     height:200px;
+    margin:0px auto;
+    display:flex;
+    justify-content: center;
+}
+:is(.country-name,p){
+color:#fff;
 }
